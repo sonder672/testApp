@@ -1,0 +1,54 @@
+{
+  "name": "Caceapp",
+  "version": "0.0.2",
+  "private": true,
+  "engines": {
+    "node": "16.13.2"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "latest",
+    "@metamask/eth-sig-util": "^4.0.0",
+    "abi-decoder": "^2.4.0",
+    "aspsms": "^0.1.1",
+    "async": "2.1.4",
+    "axios": "^0.24.0",
+    "binary-search-bounds": "^2.0.5",
+    "cachegoose": "^8.0.0",
+    "connect-mongo": "^4.6.0",
+    "core-js": "3.6.5",
+    "cron": "^1.8.2",
+    "decompress": "^4.2.1",
+    "dotenv": "4.0.0",
+    "ethers": "^5.5.2",
+    "faker": "^5.5.3",
+    "fast-csv": "^4.3.6",
+    "firebase": "^9.13.0",
+    "firebase-admin": "^11.2.0",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "keystone": "4.2.1",
+    "keystone-email": "1.0.5",
+    "lodash": "^4.13.1",
+    "meta-auth": "^1.1.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "qrcode": "^1.5.1",
+    "twig": "0.10.3",
+    "uuid": "^8.3.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-keystone": "3.0.0",
+    "eslint-plugin-react": "^5.1.1"
+  },
+  "scripts": {
+    "plesk1": "npm install -g --unsafe-perm",
+    "plesk2": "npm install --unsafe-perm",
+    "lint": "eslint .",
+    "start": "node devBackend.js",
+    "test": "node devBackend.js"
+  }
+}

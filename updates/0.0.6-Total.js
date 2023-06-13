@@ -1,0 +1,24 @@
+exports.create = {
+    TotalModel:[
+        {
+            description:"SG",
+            totalUnits:0,
+            totalReceived:0,
+        },
+        {
+            description:"COMBO",
+            totalUnits:0,
+            totalReceived:0,
+        },
+        {
+            description:"LIQUID",
+            totalUnits:0,
+            totalReceived:0,
+        },
+        {
+            description:"TOTAL",
+            totalUnits:0,
+            totalReceived:0,
+        }
+    ]
+}
