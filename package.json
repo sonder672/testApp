@@ -51,6 +51,6 @@
     "lint": "eslint .",
     "start": "node devBackend.js",
     "test": "node devBackend.js",
-    "build": "echo 'No se requiere construcción adicional.'"
+    "build": "npm install --force"
   }
 }
