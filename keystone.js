@@ -33,6 +33,7 @@ keystone.init({
 	'logger': 'combined',
 	'user model': 'AdminModel',
 	'port': process.env.KEYSTONE_PORT || 4010,
+	'cookie secret': process.env.COOKIE_SECRET || "e12063abb3d1266f12cd43f1a5c"
 });
 
 // Load your project's Models

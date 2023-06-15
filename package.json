@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "private": true,
   "engines": {
-    "node": "16.13.2"
+    "node": "18.x"
   },
   "dependencies": {
     "@ethersproject/bignumber": "latest",
@@ -35,6 +35,7 @@
     "mongodb": "^4.4.1",
     "mongoose": "^6.2.7",
     "qrcode": "^1.5.1",
+    "sharp": "^0.32.1",
     "twig": "0.10.3",
     "uuid": "^8.3.2",
     "xlsx": "^0.18.5"
