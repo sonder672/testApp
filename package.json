@@ -50,6 +50,7 @@
     "plesk2": "npm install --unsafe-perm",
     "lint": "eslint .",
     "start": "node devBackend.js",
-    "test": "node devBackend.js"
+    "test": "node devBackend.js",
+    "build": "echo 'No se requiere construcción adicional.'"
   }
 }
